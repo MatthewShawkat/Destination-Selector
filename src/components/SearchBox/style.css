@@ -1,0 +1,36 @@
+.SearchBox {
+  background-color: #f5d361;
+  padding: 26px;
+}
+
+.SearchBox__title {
+  margin-bottom: 20px;
+}
+
+.SearchBox__container {
+  position: relative;
+}
+
+.SearchBox__spinner {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  width: 30px;
+}
+
+.SearchBox__label {
+  color: #444;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.875em;
+}
+
+.SearchBox__input {
+  width: 100%;
+  background-color: #FEFEFE;
+  border: 1px solid #a9a9a9;
+  font-size: 0.813em;
+  padding: 12px 10px;
+  box-sizing: border-box;
+  line-height: 15px;
+}

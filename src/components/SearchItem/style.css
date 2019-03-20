@@ -1,0 +1,51 @@
+.SearchItem {
+  background-color: white;
+  padding: 10px 9px;
+  border-bottom: 1px solid #eaeaea;
+  cursor: pointer;
+  list-style: none;
+}
+
+.SearchItem:hover {
+  background-color: #dff6ff;
+}
+
+.SearchItem__section {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.SearchItem__type {
+  background-color: gray;
+  min-width: 50px;
+  margin: 2px 10px 0 0;
+  padding: 3px 5px;
+  border-radius: 3px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  color: #fff;
+}
+
+.SearchItem__type--Airport {
+  background-color: #f2817f;
+}
+
+.SearchItem__type--City {
+  background-color: #6eb8fa;
+}
+
+.SearchItem__type--District {
+  background-color: #70d58e;
+}
+
+.SearchItem__name {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.SearchItem__location {
+  font-size: 12px;
+  font-weight: 400;
+  color: gray;
+}
